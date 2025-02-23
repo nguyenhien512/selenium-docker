@@ -1,0 +1,617 @@
+1449 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+3963 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+4097 [main] INFO  i.g.b.wdm.online.Downloader -- Downloading https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.85/win64/chromedriver-win64.zip
+6902 [main] INFO  i.g.b.wdm.online.Downloader -- Extracting driver from compressed file chromedriver-win64.zip
+7140 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+10615 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+10616 [main] ERROR com.example.util.JsonUtil -- unable to read test data test-data/flight-reservation/passenger-1.json
+java.nio.file.NoSuchFileException: test-data\flight-reservation\passenger-1.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at com.example.util.ResourceLoader.getResource(ResourceLoader.java:26)
+	at com.example.util.JsonUtil.getTestData(JsonUtil.java:15)
+	at com.example.tests.flightReservation.FlightReservationTest.setParameters(FlightReservationTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+13060 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+13068 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+14481 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-2.json
+14484 [main] ERROR com.example.util.JsonUtil -- unable to read test data test-data/flight-reservation/passenger-2.json
+java.nio.file.NoSuchFileException: test-data\flight-reservation\passenger-2.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at com.example.util.ResourceLoader.getResource(ResourceLoader.java:26)
+	at com.example.util.JsonUtil.getTestData(JsonUtil.java:15)
+	at com.example.tests.flightReservation.FlightReservationTest.setParameters(FlightReservationTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+18481 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+18492 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+19783 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-3.json
+19786 [main] ERROR com.example.util.JsonUtil -- unable to read test data test-data/flight-reservation/passenger-3.json
+java.nio.file.NoSuchFileException: test-data\flight-reservation\passenger-3.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at com.example.util.ResourceLoader.getResource(ResourceLoader.java:26)
+	at com.example.util.JsonUtil.getTestData(JsonUtil.java:15)
+	at com.example.tests.flightReservation.FlightReservationTest.setParameters(FlightReservationTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+21675 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+21683 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+22773 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-4.json
+22775 [main] ERROR com.example.util.JsonUtil -- unable to read test data test-data/flight-reservation/passenger-4.json
+java.nio.file.NoSuchFileException: test-data\flight-reservation\passenger-4.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at com.example.util.ResourceLoader.getResource(ResourceLoader.java:26)
+	at com.example.util.JsonUtil.getTestData(JsonUtil.java:15)
+	at com.example.tests.flightReservation.FlightReservationTest.setParameters(FlightReservationTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+1805 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+2581 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2626 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+5021 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+7987 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+7999 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+9447 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-2.json
+11417 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+11431 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+12684 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-3.json
+15396 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+15426 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+16621 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-4.json
+1429 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+2190 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2239 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+5185 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+8398 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+8414 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+9781 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-2.json
+12298 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+12308 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+13621 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-3.json
+16403 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+16414 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+17757 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-4.json
+1325 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+2055 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2095 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+4333 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+8015 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+8030 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+9308 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-2.json
+12763 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+12772 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+14062 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-3.json
+17703 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+17711 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+18908 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-4.json
+1291 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+2071 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2112 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+4277 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+37396 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+37405 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+38577 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-2.json
+69232 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+69245 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+70502 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-3.json
+1182 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+1911 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+1949 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+4110 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+1230 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+1946 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+1987 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+4098 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+1183 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+1893 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+1934 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+4230 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+1168 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+1897 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+1936 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+4102 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+1185 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+1923 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+1964 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+4214 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+12424 [main] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2024-11-1732462091435
+12424 [main] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $584 USD
+1176 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+1903 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+1944 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+4206 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+12927 [main] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2024-11-1732462155311
+12927 [main] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $584 USD
+1354 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\vendor-portal.xml
+
+2332 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2379 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+6551 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/sam.json
+6552 [main] ERROR com.example.util.JsonUtil -- unable to read test data test-data/vendor-portal/sam.json
+java.nio.file.NoSuchFileException: test-data\vendor-portal\sam.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at com.example.util.ResourceLoader.getResource(ResourceLoader.java:26)
+	at com.example.util.JsonUtil.getTestData(JsonUtil.java:15)
+	at com.example.tests.vendorportal.VendorPortalTest.setPageObjects(VendorPortalTest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+7930 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+7953 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+9449 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/mike.json
+9449 [main] ERROR com.example.util.JsonUtil -- unable to read test data test-data/vendor-portal/mike.json
+java.nio.file.NoSuchFileException: test-data\vendor-portal\mike.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at com.example.util.ResourceLoader.getResource(ResourceLoader.java:26)
+	at com.example.util.JsonUtil.getTestData(JsonUtil.java:15)
+	at com.example.tests.vendorportal.VendorPortalTest.setPageObjects(VendorPortalTest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+10438 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+10452 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+11979 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/john.json
+11980 [main] ERROR com.example.util.JsonUtil -- unable to read test data test-data/vendor-portal/john.json
+java.nio.file.NoSuchFileException: test-data\vendor-portal\john.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at com.example.util.ResourceLoader.getResource(ResourceLoader.java:26)
+	at com.example.util.JsonUtil.getTestData(JsonUtil.java:15)
+	at com.example.tests.vendorportal.VendorPortalTest.setPageObjects(VendorPortalTest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+1318 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\vendor-portal.xml
+
+2101 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2149 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+4747 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/sam.json
+11007 [main] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 8
+12412 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+12426 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+13999 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/mike.json
+22933 [main] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 10
+26881 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+26892 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+28176 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/john.json
+35567 [main] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 0
+2087 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+4763 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+4805 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+1327 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+2265 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2318 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+5378 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+16439 [main] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2024-11-1732941451983
+16440 [main] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $584 USD
+1231 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\selenium-docker\src\test\resources\test-suites\vendor-portal.xml
+
+1954 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+1998 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+4604 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/sam.json
+14330 [main] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 8
+16483 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+16493 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+18169 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/mike.json
+24145 [main] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 10
+27179 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+27189 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+28631 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/john.json
+33403 [main] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 0
+1571 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\Documents\docker\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+5157 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+5206 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+10195 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+21291 [main] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2024-12-1733152902548
+21291 [main] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $584 USD
+1428 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\Documents\docker\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+11619 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+30108 [main] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2024-12-1733153412992
+30108 [main] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $584 USD
+1808 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\Documents\docker\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+16942 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+32463 [main] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2024-12-1733154124862
+32463 [main] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $584 USD
+36129 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-2.json
+48754 [main] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2024-12-1733154140974
+48754 [main] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $2338 USD
+4367 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\Documents\docker\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+8115 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+8140 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+8231 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+8233 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+14481 [TestNG-tests-2] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-2.json
+14481 [TestNG-tests-1] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+1566 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\Documents\docker\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+2645 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2645 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2698 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+2700 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+6342 [TestNG-tests-1] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+7479 [TestNG-tests-2] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-2.json
+2060 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\Documents\docker\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+3385 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+3394 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+3456 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+3458 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+9066 [TestNG-tests-2] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-2.json
+9066 [TestNG-tests-1] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+21471 [TestNG-tests-1] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2024-12-1733154540540
+21472 [TestNG-tests-1] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $584 USD
+22740 [TestNG-tests-2] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2024-12-1733154542102
+22740 [TestNG-tests-2] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $2338 USD
+1327 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\Documents\docker\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+13166 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+13199 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+13362 [TestNG-tests-1] INFO  i.g.b.wdm.online.Downloader -- Downloading https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.87/win64/chromedriver-win64.zip
+13364 [TestNG-tests-2] INFO  i.g.b.wdm.online.Downloader -- Downloading https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.87/win64/chromedriver-win64.zip
+19435 [TestNG-tests-2] INFO  i.g.b.wdm.online.Downloader -- Extracting driver from compressed file chromedriver-win64.zip
+19793 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+20406 [TestNG-tests-1] INFO  i.g.b.wdm.online.Downloader -- Extracting driver from compressed file chromedriver-win64.zip
+20667 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+43636 [TestNG-tests-1] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+43636 [TestNG-tests-2] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-2.json
+1678 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\Documents\docker\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+1715 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\Documents\docker\selenium-docker\src\test\resources\test-suites\flight-reservation.xml
+
+1622 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\Documents\docker\selenium-docker\src\test\resources\test-suites\vendor-portal.xml
+
+1692 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: config/default.properties
+1705 [main] INFO  com.example.util.Config -- Test Properties
+1706 [main] INFO  com.example.util.Config -- selenium.grid.urlFormat=htpp://%s:4444/wd/hub
+1707 [main] INFO  com.example.util.Config -- browser=chrome
+1709 [main] INFO  com.example.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+1710 [main] INFO  com.example.util.Config -- selenium.grid.enabled=false
+1711 [main] INFO  com.example.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+1712 [main] INFO  com.example.util.Config -- selenium.grid.hubHost=localhost
+4520 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+4572 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+10896 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/sam.json
+16160 [main] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 8
+18502 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+18529 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+20052 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/mike.json
+26018 [main] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 10
+28697 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+28712 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+30572 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/john.json
+39105 [main] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 0
+1541 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\Documents\docker\selenium-docker\src\test\resources\test-suites\vendor-portal.xml
+
+1598 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: config/default.properties
+1599 [main] INFO  com.example.util.Config -- Test Properties
+1600 [main] INFO  com.example.util.Config -- selenium.grid.urlFormat=htpp://%s:4444/wd/hub
+1600 [main] INFO  com.example.util.Config -- browser=chrome
+1601 [main] INFO  com.example.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+1602 [main] INFO  com.example.util.Config -- selenium.grid.enabled=true
+1603 [main] INFO  com.example.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+1603 [main] INFO  com.example.util.Config -- selenium.grid.hubHost=localhost
+1317 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: config/default.properties
+1327 [main] INFO  com.example.util.Config -- Test Properties
+1328 [main] INFO  com.example.util.Config -- selenium.grid.urlFormat=http://%s:4444/wd/hub
+1328 [main] INFO  com.example.util.Config -- browser=chrome
+1329 [main] INFO  com.example.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+1329 [main] INFO  com.example.util.Config -- selenium.grid.enabled=true
+1329 [main] INFO  com.example.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+1329 [main] INFO  com.example.util.Config -- selenium.grid.hubHost=localhost
+1376 [TestNG-tests-3] INFO  com.example.tests.AbstractTest -- Grid url http://localhost:4444/wd/hub
+1376 [TestNG-tests-1] INFO  com.example.tests.AbstractTest -- Grid url http://localhost:4444/wd/hub
+1376 [TestNG-tests-2] INFO  com.example.tests.AbstractTest -- Grid url http://localhost:4444/wd/hub
+2624 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: config/default.properties
+2625 [main] INFO  com.example.util.Config -- Test Properties
+2626 [main] INFO  com.example.util.Config -- selenium.grid.urlFormat=http://%s:4444/wd/hub
+2626 [main] INFO  com.example.util.Config -- browser=chrome
+2626 [main] INFO  com.example.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2626 [main] INFO  com.example.util.Config -- selenium.grid.enabled=true
+2626 [main] INFO  com.example.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2626 [main] INFO  com.example.util.Config -- selenium.grid.hubHost=localhost
+2630 [TestNG-tests-2] INFO  com.example.tests.AbstractTest -- Grid url http://localhost:4444/wd/hub
+2630 [TestNG-tests-1] INFO  com.example.tests.AbstractTest -- Grid url http://localhost:4444/wd/hub
+2633 [TestNG-tests-4] INFO  com.example.tests.AbstractTest -- Grid url http://localhost:4444/wd/hub
+2634 [TestNG-tests-3] INFO  com.example.tests.AbstractTest -- Grid url http://localhost:4444/wd/hub
+1569 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\ADMIN\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+1622 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: config/default.properties
+1625 [main] INFO  com.example.util.Config -- Test Properties
+1626 [main] INFO  com.example.util.Config -- selenium.grid.urlFormat=http://%s:4444/wd/hub
+1627 [main] INFO  com.example.util.Config -- browser=chrome
+1628 [main] INFO  com.example.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+1628 [main] INFO  com.example.util.Config -- selenium.grid.enabled=true
+1628 [main] INFO  com.example.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+1629 [main] INFO  com.example.util.Config -- selenium.grid.hubHost=localhost
+1662 [main] INFO  com.example.tests.AbstractTest -- Grid url http://localhost:4444/wd/hub
+1108 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: config/default.properties
+1115 [main] INFO  com.example.util.Config -- Test Properties
+1116 [main] INFO  com.example.util.Config -- selenium.grid.urlFormat=http://%s:4444/wd/hub
+1116 [main] INFO  com.example.util.Config -- browser=chrome
+1116 [main] INFO  com.example.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+1116 [main] INFO  com.example.util.Config -- selenium.grid.enabled=false
+1117 [main] INFO  com.example.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+1117 [main] INFO  com.example.util.Config -- selenium.grid.hubHost=localhost
+4155 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+4157 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+4167 [TestNG-tests-3] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+4344 [TestNG-tests-2] INFO  i.g.b.wdm.online.Downloader -- Downloading https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.98/win64/chromedriver-win64.zip
+4346 [TestNG-tests-1] INFO  i.g.b.wdm.online.Downloader -- Downloading https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.98/win64/chromedriver-win64.zip
+4348 [TestNG-tests-3] INFO  i.g.b.wdm.online.Downloader -- Downloading https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.98/win64/chromedriver-win64.zip
+13821 [TestNG-tests-1] INFO  i.g.b.wdm.online.Downloader -- Extracting driver from compressed file chromedriver-win64.zip
+14051 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+15490 [TestNG-tests-3] INFO  i.g.b.wdm.online.Downloader -- Extracting driver from compressed file chromedriver-win64.zip
+15696 [TestNG-tests-3] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+17849 [TestNG-tests-2] INFO  i.g.b.wdm.online.Downloader -- Extracting driver from compressed file chromedriver-win64.zip
+18161 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+26610 [TestNG-tests-2] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/mike.json
+26610 [TestNG-tests-3] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/john.json
+26610 [TestNG-tests-1] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/vendor-portal/sam.json
+42739 [TestNG-tests-1] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 8
+44335 [TestNG-tests-3] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 0
+45940 [TestNG-tests-2] INFO  o.e.p.vendorportal.DashboardPage -- Results count: 10
+57676 [main] INFO  com.example.util.ResourceLoader -- reading resource from location: config/default.properties
+57677 [main] INFO  com.example.util.Config -- Test Properties
+57678 [main] INFO  com.example.util.Config -- selenium.grid.urlFormat=http://%s:4444/wd/hub
+57678 [main] INFO  com.example.util.Config -- browser=chrome
+57678 [main] INFO  com.example.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+57679 [main] INFO  com.example.util.Config -- selenium.grid.enabled=false
+57679 [main] INFO  com.example.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+57679 [main] INFO  com.example.util.Config -- selenium.grid.hubHost=localhost
+57717 [TestNG-tests-3] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+57723 [TestNG-tests-4] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+57726 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+57749 [TestNG-tests-4] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+57752 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+57761 [TestNG-tests-3] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+57769 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+57773 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+62543 [TestNG-tests-2] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-2.json
+62788 [TestNG-tests-4] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-4.json
+62972 [TestNG-tests-3] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-3.json
+63311 [TestNG-tests-1] INFO  com.example.util.ResourceLoader -- reading resource from location: test-data/flight-reservation/passenger-1.json
+90939 [TestNG-tests-4] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2025-2-1739702847755
+90940 [TestNG-tests-4] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $584 USD
+91651 [TestNG-tests-3] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2025-2-1739702849602
+91651 [TestNG-tests-3] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $584 USD
+91767 [TestNG-tests-2] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2025-2-1739702848720
+91767 [TestNG-tests-2] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $2338 USD
+91820 [TestNG-tests-1] INFO  o.e.p.f.FlightConfirmationPage -- Flight confirmation# : 2025-2-1739702849390
+91820 [TestNG-tests-1] INFO  o.e.p.f.FlightConfirmationPage -- Total price : $584 USD
