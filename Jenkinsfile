@@ -19,8 +19,10 @@ pipeline {
                 DOCKER_HUB = credentials('dockerhub-creds')
             }
             steps {
-                def loginResult = bat(script: 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%', returnStdout: true).trim()
-                echo "Login Result: ${loginResult}"
+                script {
+                    def loginResult = bat(script: 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%', returnStdout: true).trim()
+                    echo "Login Result: ${loginResult}"
+                }
                 bat "docker push nguyenhien512/selenium"
             }
         }
